@@ -1,0 +1,47 @@
+{
+ "mappings" : {
+      "properties" : {
+        "geometry" : { "type":"geo_shape" },
+        "properties" : {
+          "properties" : {
+            "OBJECTID" : {
+              "type" : "long"
+            },
+            "Shape_Area" : {
+              "type" : "float"
+            },
+            "Shape_Leng" : {
+              "type" : "float"
+            },
+            "ZONING" : {
+              "type" : "text",
+              "fields" : {
+                "keyword" : {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                }
+              }
+            }
+          }
+        },
+        "tags" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "type" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        }
+      }
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "settings": {
+    "analysis": {
+      "normalizer": {
+        "uppercase_trim": {
+          "type": "custom",
+          "char_filter": [],
+          "filter": ["uppercase", "asciifolding", "trim"]
+        }
+      }
+    }
+},
+"mappings": {
+    "dynamic": "strict",
+    "properties": {
+      "STATE": { "type":"keyword", "normalizer": "uppercase_trim"},
+      "COUNTY": { "type":"keyword", "normalizer": "uppercase_trim"},
+      "CENSUS_TRACT_NUMBER": { "type":"keyword"},
+      "TRACT_TYPE": { "type":"keyword", "normalizer": "uppercase_trim"},
+      "ACS_DATA_SOURCE": { "type":"keyword", "normalizer": "uppercase_trim"},
+      "GEO_COORDS": { "type":"geo_shape"}
+    }
+  }
+}
