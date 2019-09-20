@@ -18,3 +18,7 @@ See also https://casoilresource.lawr.ucdavis.edu/gmap/
 ### Opportunity Zones
 https://www.cdfifund.gov/Pages/Opportunity-Zones.aspx
 ### Zoning
+https://hub.arcgis.com/datasets/titusville::zoning
+https://hub.arcgis.com/datasets/titusville::future-land-use
+https://hub.arcgis.com/datasets/brevardbocc::zoning
+
