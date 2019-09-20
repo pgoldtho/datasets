@@ -10,3 +10,11 @@ https://www.fema.gov/national-flood-hazard-layer-nfhl#
 https://www.fws.gov/wetlands/data/Data-Download.html
 ### Topology
 https://viewer.nationalmap.gov/basic/
+### Superfund/Brownfield
+https://www.epa.gov/frs/geospatial-data-download-service
+### Soil Data
+https://nrcs.app.box.com/v/soils
+See also https://casoilresource.lawr.ucdavis.edu/gmap/
+### Opportunity Zones
+https://www.cdfifund.gov/Pages/Opportunity-Zones.aspx
+### Zoning
