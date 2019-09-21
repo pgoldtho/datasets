@@ -30,6 +30,7 @@ Zoning data is maintained at the city level for incorporated areas and county le
 8. Melbourne - https://mgis.maps.arcgis.com/apps/webappviewer/index.html?id=3f1f8b678a754f74ab7a58ba33c7911f
 9. Melbourne Beach - https://www.melbournebeachfl.org/sites/melbournebeachfl/files/uploads/zoning_map.pdf
 10. Melbourne Village - no map
+11. West Melbourne - https://www.westmelbourne.org/DocumentCenter/View/2918/Zoning?bidId= [landing page](https://www.westmelbourne.org/261/City-Maps)
 11. Palm Bay - https://gis.palmbayflorida.org/portal/apps/webappviewer/index.html?id=c263a4dbd1834bc2a73b97f1bb88e2d5
 12. Palm Shores - http://www.townofpalmshores.org/sites/palmshoresfl/files/uploads/zoning_map.pdf [landing page](http://www.townofpalmshores.org/planning-zoning-board/pages/planning-zoning-maps)
 13. Rockledge - https://www.cityofrockledge.org/DocumentCenter/View/442/2014-Zoning-Map-PDF
