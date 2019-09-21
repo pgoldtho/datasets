@@ -18,6 +18,12 @@ See also https://casoilresource.lawr.ucdavis.edu/gmap/
 ### Opportunity Zones
 https://www.cdfifund.gov/Pages/Opportunity-Zones.aspx
 ### Zoning
+Zoning data is maintained at the city level for incorporated areas and county level for unincorporated ones.  Zoning authorities often publish zoning maps.  Each map is a separate site.  For example, in Brevard County Florida:
+1. https://titusville.maps.arcgis.com/apps/webappviewer/index.html?id=993da359767b455fa2e98c82bcc6331e
+2. https://cocoacity.maps.arcgis.com/home/webmap/viewer.html?webmap=531ff8bc709a4f08bfc9e732c76cebaa
+3. https://www.cityofrockledge.org/DocumentCenter/View/442/2014-Zoning-Map-PDF
+4. https://www.cityofcocoabeach.com/DocumentCenter/View/3271/Ord1614-Zoning-Map-Citywide-PDF?bidId=
+
 https://hub.arcgis.com/datasets/titusville::zoning
 https://hub.arcgis.com/datasets/titusville::future-land-use
 https://hub.arcgis.com/datasets/brevardbocc::zoning
