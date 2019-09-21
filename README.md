@@ -35,7 +35,7 @@ Zoning data is maintained at the city level for incorporated areas and county le
 13. Rockledge - https://www.cityofrockledge.org/DocumentCenter/View/442/2014-Zoning-Map-PDF
 14. Satellite Beach - http://www.satellitebeach.org/Departments/Zoning%20Map%20no%20CM%2012-14-17.pdf
 15. Titusville - https://titusville.maps.arcgis.com/apps/webappviewer/index.html?id=993da359767b455fa2e98c82bcc6331e
-16. Unincorporated Brevard County - https://www.arcgis.com/apps/webappviewer/index.html?id=8401fea35fda4415aa48f0dfe861ccdc&extent=-9060424.6779%2C3250925.5042%2C-8913665.5836%2C3321171.1332%2C102100 (broken)
+16. Unincorporated Brevard County - http://www.arcgis.com/apps/webappviewer/index.html?id=8401fea35fda4415aa48f0dfe861ccdc&extent=-9060424.6779%2C3250925.5042%2C-8913665.5836%2C3321171.1332%2C102100 (broken)
 
 Shape files:
 
