@@ -12,6 +12,7 @@ https://www.fws.gov/wetlands/data/Data-Download.html
 https://viewer.nationalmap.gov/basic/
 ### Superfund/Brownfield
 https://www.epa.gov/frs/geospatial-data-download-service
+http://geodata.myflorida.com/datasets/FDACS::brownfield-sites-2019
 ### Soil Data
 https://nrcs.app.box.com/v/soils
 See also https://casoilresource.lawr.ucdavis.edu/gmap/
