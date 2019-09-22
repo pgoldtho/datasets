@@ -14,7 +14,7 @@ https://viewer.nationalmap.gov/basic/
 https://www.epa.gov/frs/geospatial-data-download-service
 http://geodata.myflorida.com/datasets/FDACS::brownfield-sites-2019
 ### Soil Data
-https://nrcs.app.box.com/v/soils
+https://nrcs.app.box.com/v/soils, https://gdg.sc.egov.usda.gov/GDGHome_DirectDownLoad.aspx, https://casoilresource.lawr.ucdavis.edu/soilweb-apps
 See also https://casoilresource.lawr.ucdavis.edu/gmap/
 ### Opportunity Zones
 https://www.cdfifund.gov/Pages/Opportunity-Zones.aspx
