@@ -1,7 +1,7 @@
 # Visulate Datasets
 
-[Wetlands and Flood zones](/floodmap.html)
-[Brevard Zoning](/zoning.html)
+- [Wetlands and Flood zones](/floodmap.html)
+- [Brevard Zoning](/zoning.html)
 
 ## Download Locations
 ### Florida Department of Revenue
