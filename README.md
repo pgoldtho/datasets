@@ -5,21 +5,23 @@
 
 ## Download Locations
 ### Florida Department of Revenue
-https://floridarevenue.com/property/Pages/DataPortal_RequestAssessmentRollGISData.aspx
+- https://floridarevenue.com/property/Pages/DataPortal_RequestAssessmentRollGISData.aspx
 ### Flood Zones
-https://www.fema.gov/national-flood-hazard-layer-nfhl#
+- https://www.fema.gov/national-flood-hazard-layer-nfhl#
 ### National Wetlands
-https://www.fws.gov/wetlands/data/Data-Download.html
+- https://www.fws.gov/wetlands/data/Data-Download.html
 ### Topology
-https://viewer.nationalmap.gov/basic/
+- https://viewer.nationalmap.gov/basic/
 ### Superfund/Brownfield
-https://www.epa.gov/frs/geospatial-data-download-service
-http://geodata.myflorida.com/datasets/FDACS::brownfield-sites-2019
+- https://www.epa.gov/frs/geospatial-data-download-service
+- http://geodata.myflorida.com/datasets/FDACS::brownfield-sites-2019
 ### Soil Data
-https://nrcs.app.box.com/v/soils, https://gdg.sc.egov.usda.gov/GDGHome_DirectDownLoad.aspx, https://casoilresource.lawr.ucdavis.edu/soilweb-apps
+- https://nrcs.app.box.com/v/soils
+- https://gdg.sc.egov.usda.gov/GDGHome_DirectDownLoad.aspx
+- https://casoilresource.lawr.ucdavis.edu/soilweb-apps
 See also https://casoilresource.lawr.ucdavis.edu/gmap/
 ### Opportunity Zones
-https://www.cdfifund.gov/Pages/Opportunity-Zones.aspx
+- https://www.cdfifund.gov/Pages/Opportunity-Zones.aspx
 ### Zoning
 Zoning data is maintained at the city level for incorporated areas and county level for unincorporated ones.  Larger cities publish zoning maps. Some use Arcgis layers others publish pdf documents.  Each map is a separate site.  For example, in Brevard County Florida there are 17 different zoning authorities:
 1. Cape Canaveral - no map [website](https://www.cityofcapecanaveral.org/)
