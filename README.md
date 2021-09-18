@@ -46,3 +46,47 @@ Shape files:
 2. https://hub.arcgis.com/datasets/titusville::future-land-use
 3. https://hub.arcgis.com/datasets/brevardbocc::zoning
 
+### Example upload
+
+```
+docker run --rm -v /home:/home osgeo/gdal:alpine-normal-latest ogrinfo \
+ ES:https://elastic:1vqDKypyMc09s74KuREy9Af78b792fa42745d798050773a213c120.us-central1.gcp.cloud.es.io:9243
+
+docker run --rm -v /home:/home osgeo/gdal:alpine-normal-latest ogr2ogr \
+ -lco INDEX_NAME=wetlands -lco NOT_ANALYZED_FIELDS={ALL} -lco WRITE_MAPPING=./wetlands-mapping.json \
+ ES:https://elastic:1vqDKypyMc09s74KuREy9ADM@f78b792fa42745d798050773a213c120.us-central1.gcp.cloud.es.io:9243 \
+ FL_Wetlands.shp
+
+docker run --rm -v /home:/home osgeo/gdal:alpine-normal-latest ogr2ogr \
+  ES:https://elastic:1vqDKypyMc09s74KuREy9Af78b792fa42745d798050773a213c120.us-central1.gcp.cloud.es.io:9243 \
+  FL_Wetlands.shp
+
+docker run --rm -v $PWD:/home osgeo/gdal:alpine-normal-latest ogr2ogr \
+   -lco INDEX_NAME=floodmap -lco NOT_ANALYZED_FIELDS={ALL} -lco WRITE_MAPPING=/home/floodmap-mapping.json -skipfailures \
+   ES:https://elastic:1vqDKypyMc09s74KuREy9ADM@f78b792fa42745d798050773a213c120.us-central1.gcp.cloud.es.io:9243 \
+ /home/S_FLD_HAZ_AR.shp
+
+docker run --rm -v $PWD:/home osgeo/gdal:alpine-normal-latest ogr2ogr \
+-lco INDEX_NAME=floodmap -lco OVERWRITE_INDEX=YES -lco MAPPING=/home/floodmap-mapping.json -skipfailures \
+ES:https://elastic:1vqDKypyMc09s74KuREy9Af78b792fa42745d798050773a213c120.us-central1.gcp.cloud.es.io:9243 \
+/home/S_FLD_HAZ_AR.shp
+
+curl -X PUT https://elastic:1vqDKypyMc09s74KuREy9ADM@f78b792fa42745d798050773a213c120.us-central1.gcp.cloud.es.io:9243/floodmap \
+-d @floodmap-mapping.json -H 'Content-Type: application/json'
+
+docker run --rm -v /Users:/Users osgeo/gdal:alpine-normal-latest ogr2ogr -skipfailures \
+ES:https://elastic:1vqDKypyMc09s74KuREy9Af78b792fa42745d798050773a213c120.us-central1.gcp.cloud.es.io:9243 \
+$PWD/FL_Wetlands.shp
+
+docker run --rm -v /Users:/Users osgeo/gdal:alpine-normal-latest ogr2ogr -skipfailures \
+ES:https://elastic:1vqDKypyMc09s74KuREy9Af78b792fa42745d798050773a213c120.us-central1.gcp.cloud.es.io:9243 \
+$PWD/gNATSGO_FL.gdb
+
+docker run --rm -v /Users:/Users osgeo/gdal:alpine-normal-latest ogr2ogr -skipfailures \
+ES:https://elastic:1vqDKypyMc09s74KuREy9Af78b792fa42745d798050773a213c120.us-central1.gcp.cloud.es.io:9243 \
+$PWD/Brownfield_Sites_2019.shp
+
+docker run --rm -v $PWD:/home osgeo/gdal:alpine-normal-latest ogr2ogr -skipfailures \
+ES:https://elastic:1vqDKypyMc09s74KuREy9Af78b792fa42745d798050773a213c120.us-central1.gcp.cloud.es.io:9243 \
+/home/S_FLD_HAZ_AR.shp
+```
