@@ -48,6 +48,9 @@ Shape files:
 
 ### Example upload
 
+https://github.com/OSGeo/gdal/tree/master/gdal/docker
+https://hub.docker.com/r/osgeo/gdal/tags?page=1&ordering=last_updated
+
 ```
 docker run --rm -v /home:/home osgeo/gdal:alpine-normal-latest ogrinfo \
  ES:https://elastic:1vqDKypyMc09s74KuREy9Af78b792fa42745d798050773a213c120.us-central1.gcp.cloud.es.io:9243
