@@ -48,8 +48,7 @@ Shape files:
 
 ### Example upload
 
-https://github.com/OSGeo/gdal/tree/master/gdal/docker
-https://hub.docker.com/r/osgeo/gdal/tags?page=1&ordering=last_updated
+Git Clone the [GDAL Docker Images repo](https://github.com/OSGeo/gdal/tree/master/gdal/docker) and build a local image or use a pre-built [image from DockerHub]( https://hub.docker.com/r/osgeo/gdal/tags?page=1&ordering=last_updated)
 
 ```
 docker run --rm -v /home:/home osgeo/gdal:alpine-normal-latest ogrinfo \
